@@ -22,13 +22,13 @@ print ('flow is:' , flows)
 print ('cut is:' , cuts)
 ~~~  
 首先，创建有4个节点的有向图，4个节点的索引分别为0 1 2 3，然后用add_edge()增添边并为每条边指定特定的权重。边的权重用来衡量边的最大流容量。以节点0为源点，3为汇点，计算最大流。结果如下：  
-![image](https://github.com/Nocami/PythonComputerVision-11--/blob/master/image/4.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-11-Graph-Cut/blob/master/image/4.jpg)  
 结果包含了流穿过每条边和每个节点的标记：0是包含图源点的部分，1是与汇点相连的节点。这个割是最小的。
 ### 从图像创建图
 我们先看一下帝国大厦的这张原图：  
-![image](https://github.com/Nocami/PythonComputerVision-11--/blob/master/image/empire.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-11-Graph-Cut/blob/master/image/empire.jpg)  
 图割后的图片如下：左为利用贝叶斯概率模型进行图割分割，用于模型训练的标记图像；右为分割结果。  
-![image](https://github.com/Nocami/PythonComputerVision-11--/blob/master/image/1.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-11-Graph-Cut/blob/master/image/1.jpg)  
 
 源码如下：  
 ~~~python
