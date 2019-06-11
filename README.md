@@ -27,7 +27,7 @@ print ('cut is:' , cuts)
 ### 从图像创建图
 我们先看一下帝国大厦的这张原图：  
 ![image](https://github.com/Nocami/PythonComputerVision-11--/blob/master/image/empire.jpg)  
-图像分割后的图片如下：  
+图割后的图片如下：左为利用贝叶斯概率模型进行图割分割，用于模型训练的标记图像；右为分割结果。  
 ![image](https://github.com/Nocami/PythonComputerVision-11--/blob/master/image/1.jpg)  
 
 源码如下：  
